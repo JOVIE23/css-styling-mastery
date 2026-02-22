@@ -1,0 +1,16 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+}
+p {
+    color: #444;
+}
+
+.main-title #main-title {
+    font-size: 48px;
+    background-color: gray;
+}
+
+.highlight {
+    background-color: yellow;
+}
