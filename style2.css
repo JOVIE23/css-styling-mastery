@@ -1,0 +1,109 @@
+*{ 
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+h1 {
+     font-weight: 700; letter-spacing: -0.5px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    padding: 10px;
+    margin: 10px;
+    text-align:inherit;
+}
+
+ul {
+    gap: calc(200px);
+    width: 250px;
+    height: fit-content;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: 1rem;
+    background-color: azure;
+    border-color: gray;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: groove;
+    box-shadow: #333;
+}
+
+.box {
+    width: 1000px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+    background-color: beige;
+    text-align: center;
+    color: darkblue;
+    border:gray;
+    border-bottom-style: groove;
+    border-radius: 20px;
+}
+
+a:hover {
+    color: chartreuse;
+    zoom: 1;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+form {
+    background-color: #d8d4d4;
+    width: 800px;
+
+}
+
+p{
+    display: flex;
+    gap: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+
+p2 {
+    display: flex;
+    gap: calc(200px);
+    padding: 10px;
+    margin: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 1.25em;
+}
+
+.cl {
+    
+    padding: 10px;
+    margin: 10px;
+    color: brown;
+    background-color: rgb(245, 233, 216);
+    border-radius: 20px;
+    border-style: dotted;
+    border-inline-color: rgb(201, 100, 100);
+    flex-wrap: wrap-reverse;
+}
+
+fieldset{
+    padding: 15px;
+    margin: 10px;
+    align-items: stretch;
+    font-size: 14px;
+    color: darkslategray;
+}
+
+legend{
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.5px;
+
+}
