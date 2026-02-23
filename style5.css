@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background: #363663;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+.nav-links a:hover {
+  color: #8b5cf6;
+}
+.nav-links a:visited {
+  color: #5cd410;
+}
+.nav-links a:active {
+  color: #f60303;
+}
+h1 {
+    padding: 10px;
+    margin: 10px;
+    color: darkred;
+}
