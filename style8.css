@@ -1,0 +1,190 @@
+* {box-sizing: border-box; margin: 0; padding: 0;}
+
+/* Mobile first (default) */
+.container {
+  flex-direction: column;
+  padding: 16px;
+}
+
+/* Desktop override */
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    padding: 32px;
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(95deg, rgb(2, 54, 100), rgb(1, 5, 57));
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    border-bottom-style: groove;
+    border-radius: 5px;
+    background-color: rgb(2, 2, 129);
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    right: 0;
+    justify-content: right;
+    align-items: right;
+    text-decoration-style: none;
+    list-style-type: none;
+    gap: 2px;
+    color:rgb(4, 188, 244);
+    font-weight: thick;
+    font-family: outfit;
+    font-size: 16px;
+}
+
+.nav-links a {
+    padding: 10px;
+    margin: 10px;
+    justify-content: right;
+    align-items: right;
+    text-decoration: none;
+    color: aqua;
+    font-family: outfit;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    cursor: pointer;
+    background: linear-gradient( -180deg, purple ,hotpink);
+    border-radius: 9px;
+}
+
+.logo-img {
+
+    border: none #ccc;
+    opacity: 0.6;
+}
+
+.logo-img:hover {
+    cursor: pointer;
+    transform: rotate(90deg) scale(0.9);
+    transform-style: flat;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.column {
+    padding: 10px;
+    width: 100%;
+}
+
+.row {
+    max-width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.row h2 , .row h4 {
+    text-align: center;
+    line-height: 1.5;
+    color: cyan;
+}
+
+.row h2 {
+    font-family: outfit;
+    font-weight: auto;
+    font-size:40px;
+}
+
+.row h4 {
+    font-family: outfit;
+    font-weight:600;
+    font-size:16px;
+    font-display: linear-gradient( -90deg, purple ,hotpink);
+}
+
+.res.row h2 {
+    font-family: outfit;
+    font-weight: auto;
+    font-size:40px;
+
+}
+
+.resource {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+.resource a {
+    padding: 10px 20px;
+    background: linear-gradient( -90deg, rgb(21 184 220) ,rgb(18 81 195));
+    cursor: pointer;
+    font-size: 16px;
+    font-family: outfit;
+    color: white;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.resource a:hover {
+    cursor: pointer;
+    background: linear-gradient( -90deg, purple ,hotpink);
+}
+
+.gradient-text-color {
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient( -90deg, rgb(234, 18, 6) ,rgb(235, 3, 119)) ;
+}
+
+.gradient-text-color-sm {
+    padding: 3px;
+    background: darkblue;
+    color: white;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: aqua;
+    font-family: outfit;
+}
+
+p {
+    align-items: center;
+    font-size: 10px;
+}
